@@ -6,15 +6,15 @@ var app = express();
 
 // ruteo
 app.get('/', function(req, res){
-  res.sendfile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/public/index.html');
 });
 app.get('/about', function(req, res){
   res.sendfile(__dirname + '/public/about.html');
 });
 
 // puerto
-app.use('port', (process.env.PORT || 8080));
+var port = process.env.PORT || 8080;
 // escuchar
-// app.listen(9000);
+app.listen(port);
 //
 // console.log("Servidor Express escuchando en modo %s", app.settings.env);
