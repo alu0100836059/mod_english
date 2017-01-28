@@ -13,7 +13,7 @@ app.get('/about', function(req, res){
 });
 
 // puerto
-app.use('port', (proccess.env.PORT || 8080));
+app.use('port', (process.env.PORT || 8080));
 // escuchar
 // app.listen(9000);
 //
