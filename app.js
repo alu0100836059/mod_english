@@ -23,8 +23,9 @@ app.get('/about', function(req, res){
 // puerto
 var port = process.env.PORT || 8080;
 // escuchar
-// app.listen(port);
-app.listen(8080);
+app.listen(port);
+//local
+// app.listen(8080);
 //
 // console.log("Servidor Express escuchando en modo %s", app.settings.env);
 module.exports = app
