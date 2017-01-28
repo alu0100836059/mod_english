@@ -1,0 +1,19 @@
+{
+  "name": "mod_english",
+  "version": "0.0.1",
+  "description": "Modulo para el aprendizaje del lenguaje inglés y práctica de js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100836059/mod_english.git"
+  },
+  "author": "Jacobo Rodicio González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100836059/mod_english/issues"
+  },
+  "homepage": "https://github.com/alu0100836059/mod_english#readme"
+}
