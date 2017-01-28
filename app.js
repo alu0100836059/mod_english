@@ -8,7 +8,9 @@ var app = express();
 
 console.log("Principio");
 
-app.set('public', __dirname + '/public');
+
+app.use(express.static(__dirname + '/public'))
+// app.set('public', __dirname + '/public');
 // app.set('view engine', 'ejs');
 
 
