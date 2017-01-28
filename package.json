@@ -2,7 +2,7 @@
   "name": "mod_english",
   "version": "0.0.1",
   "description": "Modulo para el aprendizaje del lenguaje inglés y práctica de js",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/alu0100836059/mod_english/issues"
   },
-  "homepage": "https://github.com/alu0100836059/mod_english#readme"
+  "homepage": "https://github.com/alu0100836059/mod_english#readme",
+  "engines": {
+    "node": "4.3.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
