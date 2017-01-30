@@ -19,8 +19,12 @@ app.get('/intro', function(req, res){
 });
 
 app.get('/login', function(req, res){
-  res.sendFile(__dirname + '/public/pages/login.html')
-})
+  res.sendFile(__dirname + '/public/pages/login.html');
+});
+
+app.get('/errores', function(req, res){
+  res.sendFile(__dirname + '/public/pages/errores.html');
+});
 //----------------- FINAL RUTAS ------------------------------//
 
 // puerto
